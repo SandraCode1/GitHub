@@ -1,0 +1,137 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.contenedor{
+    margin: auto;
+    width: 950px;
+    height: 600px;
+    padding: 5px;
+    background: linear-gradient(#EAEDED,#BFC9CA);
+}
+.input-text{
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    color: #0A3871;
+    width: 80%;
+    height: 60%;
+    background: #F3F5FC;
+    outline: none;
+    border: none;
+    font-size: 20px;
+}
+.logo{
+    width: 70%;
+    float: left;
+    float: inherit;
+}
+
+.titulo{
+    float: inherit;
+    float: right;
+    font-family: 'Caveat', cursive;
+    font-family: 'Instrument Serif', serif;
+    font-size: 42px;
+    font-weight: bold;
+}
+.izquierda{
+    float: left;
+    width: 70%;
+    height: 80%;
+    border-radius: 24px;
+}
+.derecha{
+    float:right;
+    width: 30%;
+    height: auto;
+    border-radius: 24px;
+}
+
+p:before{
+    content: "👉 ❢";
+}
+p{
+    margin-left: 5%;
+    color: #154360;
+}
+.botones{
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+}
+
+.encriptar{
+    background: #1A5276;
+    border: 1px solid #154360;
+    border-radius: 24px;
+    color:aliceblue;
+    cursor: pointer;
+    height: 60px;
+    width: 210px;
+}
+
+.desencriptar{
+    background: #979A9A;
+    border: 1px solid #7B7D7D;
+    border-radius: 24px;
+    color:#154360;
+    cursor: pointer;
+    height: 60px;
+    margin-left: 10px;
+    width: 210px;
+}
+
+.mensaje{
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    color: #0A3871;
+    width: 80%;
+    height: 60%;
+    background: #F3F5FC;
+    outline: none;
+    border: none;
+    font-size: 15px;
+}
+.copiar{
+    margin-left: 33%;
+    margin-top: 6%;
+    padding: 24px;
+    width: 40%;
+    height: 10%;
+    background: #99A3A4;
+    border-radius: 24px;
+    display: none;
+}
+
+#text{
+    font-family: 'Caveat', cursive;
+    font-family: 'Instrument Serif', serif;
+    font-size: 22px;
+    text-align: center;
+    color: #154360;
+}
+
+.image{
+    margin-top: 5%;
+    margin-left: 5%;
+    float: inherit;
+    width: 80%;
+}
+.pie{
+    font-family: 'Caveat', cursive;
+    font-family: 'Instrument Serif', serif;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.pie:before{
+    content: "😇⭐";
+}
+
+.pie:after{
+    content: "⭐😝";
+}
